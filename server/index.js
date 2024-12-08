@@ -33,8 +33,8 @@ if (cluster.isPrimary) {
     cors({
       origin: [
         process.env.FRONTEND_URL,
-        "https://socket-api-backend.onrender.com",
-        "https://my-stock-api.onrender.com",
+        "https://scripvalutapi.onrender.com/",
+        "https://scripvalut.vercel.app/",
       ],
     })
   );
